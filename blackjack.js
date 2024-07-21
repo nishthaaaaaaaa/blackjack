@@ -10,14 +10,6 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardEl = document.querySelector("#card-el")
 
-let player = 
-{
-     name :  'nishtha',
-     chip :   123
-}
-let playerEl= document.getElementById("player-el")
-playerEl.textContent = player.name + ': $' + player.chip
-
 function startgame()
 {
     isAlive = true
